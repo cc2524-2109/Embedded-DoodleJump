@@ -6,9 +6,11 @@
  
 ## Doodle Jump
 
-* The goal of the game (doodle jump) is to get the avatar to jump as high as possible, from platform to platform. The screen would constantly be moving down at a certain speed such that if the avatar falls off the screen or doesn’t jump fast enough, the user loses. Users can control the avatar using the slider from the board. The screen would update the avatar’s position accordingly. 
+Doodle Jump Embedded Version takes inspiration from the classic mobile game “Doodle Jump” and incorporates the use of the FRDM-K64F development board. Inspired by the original game, players control a jumping avatar as it ascends through a vertically scrolling world filled with platforms. The goal of the game is to get the avatar to jump as high as possible, from platform to platform. However, instead of tapping or tilting the screen, players interact with the game using the board’s buttons (SW1 and SW3) and LCD display.
 
-* Users can alter the speed at which the screen moves downward. The faster/higher the speed, the faster the screen would move down and the harder the game is. Users can alter the speed by clicking on a button on the board where each press would increase the speed by a certain amount.
+The game environment is rendered using python GUI, with colorful and dynamic visuals that mimic the classic “Doodle Jump” game on mobile. The avatar, resembling the iconic Doodler, bounces from platform to platform, aiming to climb as high as possible while avoiding falling off the screen.
+
+To add a competitive edge, the player’s score and the game’s level is displayed on-screen. With every platform that the Doodler passes, the player’s score increases by 1. With every 10 points that the player gains, the game proceeds to the next level. When the player is unable to reach all surrounding platforms, or falls out of the screen, the game ends and the player loses. The game then allows the player to choose to either play again or quit. Players can challenge themselves to beat their high score.
 
 ## Project Web-Page
 
